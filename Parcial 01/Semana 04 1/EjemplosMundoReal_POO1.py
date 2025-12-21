@@ -19,7 +19,9 @@ class Persona:
     def pagar(self):
         print(f"mi vestido es {self.color} y es talla {self.talla}.")
 
-mi_vestido = Vestido("Calvin Klein", "gala", "red")
-persona1 = Persona("Mery", "M", "red")
+mi_vestido = Vestido("Calvin Klein", "gala", "green")
+persona1 = Persona("Mery", "M", "green")
+persona1.comprar()
+persona1.pagar()
 persona1.comprar()
 persona1.pagar()
