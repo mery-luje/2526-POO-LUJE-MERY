@@ -149,4 +149,7 @@ print("Libros de Jairo:", usuario2.mostrar_libros())
 biblioteca.devolver_libro("593005001", 1)
 
 # Buscar libro
-print("Búsqueda:", biblioteca.buscar_libros("Python"))
+print("Búsqueda:", biblioteca.buscar_libros("Interchange 3B"))
+print("Búsqueda:", biblioteca.buscar_libros("Hoy es el tiempo...los hijos no esperan..."))
+
+# tarea semana 12 biblioteca
